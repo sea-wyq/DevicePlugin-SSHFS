@@ -13,6 +13,9 @@
 kubelet -h | grep "DevicePlugins"
 ```
 
+## 本地测试
+直接clone仓库到本地，然后直接运行`go rum main.go`
+
 ## 部署:
 ```
 kubectl create -f fuse-device-plugin.yml
